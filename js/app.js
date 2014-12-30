@@ -42,7 +42,7 @@ var mesh = (function (shape, extrudeSettings, color, x, y, z, rx, ry, rz, s) {
   mesh.rotation.set( rx, ry, rz );
   mesh.scale.set( s, s, s );
   return mesh;
-}( heartShape, extrudeSettings, 0xff1100, 0, 200, 0, 0, 0, Math.PI, 1 ));
+}( heartShape, extrudeSettings, 0xff1100, 0, 180, 0, 0, 0, Math.PI, 1 ));
 
 scene.add( mesh );
 
